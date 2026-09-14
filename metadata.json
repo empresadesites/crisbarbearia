@@ -1,0 +1,6 @@
+{
+  "name": "Cristopher BarberShop",
+  "description": "Site oficial e agendamento online da Cristopher BarberShop em Veneza, Ipatinga - MG. Conheça nossos serviços de corte masculino, barba e acabamento.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

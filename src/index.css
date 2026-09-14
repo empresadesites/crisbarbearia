@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #0B0B0C;
+    color: #F4F4F5;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: 0.03em;
+  }
+}
+
+/* Custom gold gradients and accents */
+.text-gold {
+  color: #D4AF37;
+}
+
+.bg-gold {
+  background-color: #C5A059;
+}
+
+.border-gold {
+  border-color: #C5A059;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF1C5 0%, #D4AF37 50%, #997A35 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  border: 1px solid rgba(197, 160, 89, 0.35);
+  box-shadow: 0 4px 20px -2px rgba(197, 160, 89, 0.08);
+}
+
+.gold-button {
+  background: linear-gradient(135deg, #DFBA73 0%, #C5A059 100%);
+  color: #0B0B0C;
+  font-weight: 700;
+  transition: all 0.25s ease;
+}
+
+.gold-button:hover {
+  background: linear-gradient(135deg, #ECD195 0%, #D4AF37 100%);
+  box-shadow: 0 4px 24px rgba(212, 175, 55, 0.35);
+  transform: translateY(-1px);
+}
